@@ -172,6 +172,7 @@ main {
 	width: 24px;
 	height: 24px;
 	display: block;
+	position: relative;
 }
 
 .cart-count {
@@ -425,7 +426,6 @@ main {
 	display: block;
 }
 
-/* Mobile Styles */
 @media (max-width: 768px) {
 	main {
 		padding: 0 15px;
@@ -627,10 +627,6 @@ main {
 
 	.img-wrapper {
 		height: 180px;
-	}
-
-	.product-card {
-		/* padding: 15px; */
 	}
 
 	.product-card__title {
